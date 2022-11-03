@@ -1,3 +1,5 @@
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/cfkoehler/customLint)
+
 # customLint
 Backend engine for applying custom Lint rules to plane text configuration files
 
