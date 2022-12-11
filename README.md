@@ -12,3 +12,33 @@ The goals of customLint is to provide a software solution for linting custom for
 - Another rule is that each line in the file has to be unique
 - Another rule is that the start of each line needs to be unique
 - Max amount of characters in a line
+
+
+## Development
+### Create Python Virtual Development Environment
+```
+## Create
+pip install virtualenv
+virtualenv -p /usr/bin/python3 customLint
+
+## Activate
+source customLint/bin/activate
+
+## Deactivate
+deactivate
+```
+
+### Install requirement's
+```
+pip install -r requirements.txt
+```
+
+### Update Requirements 
+```
+pip freeze > requirements.txt
+```
+
+### Run Tests
+```
+python -m pytest tests
+```
